@@ -64,11 +64,14 @@ The program will tamper with a block to show how chain validation detects it.
 # Example Output:
 
 Enter transactions (comma-separated) or 'exit' to stop: Alice pays Bob 50 BTC
+
 Enter transactions (comma-separated) or 'exit' to stop: Bob pays Charlie 30 BTC
+
 Enter transactions (comma-separated) or 'exit' to stop: exit
 
 ### Blockchain before tampering:
 Block 1: Transactions: ['Alice pays Bob 50 BTC']
+
 Block 2: Transactions: ['Bob pays Charlie 30 BTC']
 
 Is the blockchain valid? True
