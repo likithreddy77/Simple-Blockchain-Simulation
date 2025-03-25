@@ -14,7 +14,7 @@ Dynamic Transactions: Allows dynamic input of transactions.
 
 Chain Validation: Ensures chain integrity and detects tampering.
 
-Features
+# Features
 
 Blockchain Class: Manages the chain and adds blocks.
 
@@ -24,7 +24,7 @@ Proof-of-Work: Adjustable difficulty with iteration limits to prevent infinite l
 
 Chain Validation: Automatically detects if any block is tampered with.
 
-Installation
+# Installation
 
 Clone the repository:
 
@@ -36,7 +36,7 @@ Run the script:
 
 python blockchain_simulation.py
 
-Usage
+# Usage
 
 Add Transactions:
 
@@ -52,7 +52,7 @@ Tampering Demonstration:
 
 The program will tamper with a block to show how chain validation detects it.
 
-Example Output:
+# Example Output:
 
 Enter transactions (comma-separated) or 'exit' to stop: Alice pays Bob 50 BTC
 Enter transactions (comma-separated) or 'exit' to stop: Bob pays Charlie 30 BTC
